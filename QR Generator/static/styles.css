@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: radial-gradient(circle at 20% 30%, #b8e2ff, transparent 25%),
+                radial-gradient(circle at 80% 60%, #ffd6fb, transparent 25%),
+                radial-gradient(circle at 50% 90%, #c2f0c2, transparent 30%),
+                #dce3f3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 360px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+#qr-box {
+    padding: 10px;
+    background: white;
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#input-box input {
+    border-radius: 8px 0 0 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 0.95rem;
+    font-weight: 500;
+    outline: none;
+}
+
+#copy-btn {
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    height: 40px;
+}
+
+#continue-btn {
+    margin-top: 20px;
+    background-color: #2962ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease background;
+}
+
+#continue-btn:hover {
+    background-color: #0039cb;
+}
